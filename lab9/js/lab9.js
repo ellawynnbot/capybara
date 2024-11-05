@@ -3,16 +3,16 @@
 
    Requirements: jQuery must be loaded for this script to work.
 
-   Author: Wes modes
+   Author: Ella Wynn
    Date: 2023
 */
 
-// add buttons to sections 
+// Add buttons to sections 
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 $("#problems").append("<button id='button-challenge'>Make Special</button>");
 $("#results").append("<button id='button-challenge'>Make Special</button>");
 
-// add a click listener to the challenge button
+// Add a click listener to the challenge button
 $("button-challenge").click(function(){
     // Toggle "special" class on the challenge section
     $("#challenge").toggleClass("special");
@@ -24,6 +24,6 @@ $("button-problems").click(function(){
 });
 
 $("button-results").click(function(){
-    // Toggle "special" class on the results section
+    // Toggle "special" class on the output section
     $("#results").toggleClass("special");
 });
