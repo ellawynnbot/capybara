@@ -14,16 +14,16 @@ $("#results").append("<button id='button-challenge'>Make Special</button>");
 
 // add a click listener to the challenge button
 $("button-challenge").click(function(){
-    // now add (or subtract) the "special" class to the section
+    // Toggle "special" class on the challenge section
     $("#challenge").toggleClass("special");
 });
 
 $("button-problems").click(function(){
-    // now add (or subtract) the "special" class to the section
+    // Toggle "special" class on the problems section
     $("#problems").toggleClass("special");
 });
 
 $("button-results").click(function(){
-    // now add (or subtract) the "special" class to the section
+    // Toggle "special" class on the results section
     $("#results").toggleClass("special");
 });
