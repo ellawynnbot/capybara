@@ -12,16 +12,14 @@ function sortString(inputString) {
     return inputString.split('').sort().join('');
 }
 
-// click listener for button
-$("#submit").click(function(){
+// Click listener for button
+$("#submit").click(function() {
+    // Get the value of the input field inside the click listener
+    const userName = $("#user-name").val();
+
+    // Now let's sort it
+    const userNameSorted = sortString(userName);
+
+    // Append a new div to our output div
+    $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
 });
-
-// get value of input field
-const userName = $("#user-name").val();
-
-
-// now let's sort it
-userNameSorted = sortString(userName);
-
-// append a new div to our output div
-$("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
