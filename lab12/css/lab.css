@@ -1,30 +1,28 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: gray;
+    border: solid 5px brown;
+    background-color: burlywood;
   }
   h1 {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: black;
-   font-size: 15px;
-  }
-  h3 {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: gray;
-  font-size: 15px;
+    font-family: 'Fantasy' Marker system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(64, 28, 6);
+    font-size: 50px
   }
   p {
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   color: black;
-   font-size: 10px;
+    font-family: 'Serif', Georgia, 'Times New Roman', Times, serif;
+    text-indent: 20px
   }
   #content {
-   background-color: darkslategray;
-   width: 1400px;
-   min-height: 300px;
-   padding: 10px;
-   margin: 10px;
-   border: solid 5px black;
-   font-size: 20px;
+    background-color: #b69b69;
+    width: 1400px;
+    min-height: 300px;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px #9c641e;
+    font-size: 20px;
+  }
+  #hogwarts {
+    width: 500px;
+    height: 400px
   }
