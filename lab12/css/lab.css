@@ -1,0 +1,30 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: gray;
+  }
+  h1 {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+   font-size: 15px;
+  }
+  h3 {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: gray;
+  font-size: 15px;
+  }
+  p {
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: black;
+   font-size: 10px;
+  }
+  #content {
+   background-color: darkslategray;
+   width: 1400px;
+   min-height: 300px;
+   padding: 10px;
+   margin: 10px;
+   border: solid 5px black;
+   font-size: 20px;
+  }
