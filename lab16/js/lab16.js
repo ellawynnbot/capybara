@@ -1,5 +1,5 @@
 // Author: Ella Wynn
-// Date: 3 December 2024
+// Date: 4 December 2024
 
 
 var URL = "https://xkcd.com/info.0.json";
